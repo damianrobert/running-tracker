@@ -1,0 +1,122 @@
+html{
+    font-family: 'Lato', sans-serif ;
+    font-size: 10px;
+    background: rgb(42, 42, 42);
+}
+
+body{
+    background: rgb(32, 32, 32);
+    margin: 0 auto;
+    width: 90%;
+    color: rgb(212, 212, 212);
+    padding: 1rem;
+}
+
+.logo{
+    text-align: center;
+}
+
+form{
+    text-align: center;
+}
+
+label{
+    font-size: 1.5rem;
+}
+
+input[type="number"]{
+    font-family: inherit;
+    background: white;
+    width: 80%;
+    padding: 0.5rem;
+    margin: 1rem 0;
+    outline: none;
+    border-radius: 0.5rem;
+    border: 0.1rem solid white;
+    text-align: center;
+}
+
+button{
+    border-radius: 50%;
+    width: 7rem;
+    height: 7rem;
+    background: rgb(139, 249, 43);
+    border: 0.1rem solid rgb(139, 249, 43);
+    font-family: inherit;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+li{
+    padding: 1rem 1.5rem;
+    border: 1px solid gray;
+    border-radius: 0.2rem;
+}
+
+.entriesWrapper{
+    padding: 1rem 0;
+    font-size: 1.6rem;
+}
+
+.entriesWrapper h3{
+    text-align: center;
+    font-weight: lighter;
+    margin: 0;
+}
+
+.data div{
+    background-color: rgb(67, 67, 67);
+    border-radius: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem 0;
+    padding: 2px 5px;
+    font-size: 1.6rem;
+    font-weight: bolder;
+}
+
+.progress h3{
+    margin: 0;
+    text-align: center;
+}
+
+.progress{
+    padding-bottom: center;
+    text-align: center; 
+}
+
+.progress h3{
+    font-size: 1.6rem;
+    font-weight: lighter;
+}
+
+.progressCircleWrapper{
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+}
+
+#progressCircle{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background: conic-gradient(rgb(139, 249, 43) 1%, gray 99%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#progressCenter{
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    background: rgb(32, 32, 32);
+
+}
